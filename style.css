@@ -1,0 +1,404 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: rgba(43, 136, 43, 0.815);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* background-color: #0d2726; */
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  background-color: #353;
+  overflow: hidden;
+  position: relative;
+}
+.parallax {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: 0.45s cubic-bezier(0.2, 0.49, 0.32, 0.99);
+}
+/* 
+.bg-img {
+  width: 2800px;
+  top: calc(50% - 360px);
+  left: calc(50% - 10px);
+
+  z-index: 1;
+}
+
+.fog-7 {
+  width: 1900px;
+  top: calc(50% - 100px);
+  left: calc(50% - 300px);
+
+  z-index: 2;
+}
+
+.mountain-10 {
+  z-index: 3;
+  top: calc(50% + 69px);
+  width: 870px;
+  left: calc(50% + 230px);
+  z-index: 3;
+}
+
+.fog-6 {
+  z-index: 4;
+  top: calc(50% + 177px);
+  left: calc(50% - 30px);
+  width: 1418px;
+}
+
+.mountain-9 {
+  top: calc(50% + 119px);
+  width: 463px;
+  left: calc(50% - 457px);
+  z-index: 5;
+}
+
+.mountain-8 {
+  z-index: 6;
+  top: calc(50% + 96px);
+  width: 786px;
+  left: calc(50% - 202px);
+}
+
+.fog-5 {
+  z-index: 7;
+  top: calc(50% + 149px);
+  left: calc(50% - 28px);
+  width: 1435px;
+}
+
+.mountain-7 {
+  z-index: 8;
+  width: 515px;
+  top: calc(50% + 134px);
+  left: calc(50% + 305px);
+}
+
+.text {
+  top: calc(50% - 130px);
+  left: 50%;
+
+  z-index: 9;
+  text-align: center;
+  color: #fff;
+  pointer-events: auto;
+}
+
+.text h2 {
+  font-weight: 100;
+  font-size: 6.5rem;
+  text-align: left;
+}
+
+.text h1 {
+  font-weight: 800;
+  font-size: 8rem;
+}
+
+.mountain-6 {
+  z-index: 10;
+  top: calc(50% + 86.5px);
+  width: 383.5px;
+  left: calc(50% + 590px);
+}
+
+.fog-4 {
+  z-index: 11;
+  top: calc(50% + 242px);
+  left: calc(50% - 64px);
+  width: 543px;
+}
+
+.mountain-5 {
+  z-index: 12;
+  top: calc(50% + 269px);
+  width: 583px;
+  left: calc(50% + 130px);
+}
+
+.fog-3 {
+  z-index: 7;
+  top: calc(50% + 171px);
+  left: calc(50% + 29px);
+  width: 449px;
+}
+
+.mountain-4 {
+  z-index: 14;
+  top: calc(50% + 221px);
+  width: 717px;
+  left: calc(50% - 381.5px);
+}
+
+.mountain-3 {
+  z-index: 15;
+  top: calc(50% + 133px);
+  left: calc(50% + 736px);
+  width: 419px;
+}
+
+.fog-2 {
+  z-index: 4;
+  top: calc(50% + 95px);
+  left: calc(50% + 7px);
+  width: 1833px;
+}
+
+.mountain-2 {
+  z-index: 17;
+  top: calc(50% + 188px);
+  left: calc(50% + 412px);
+  width: 625px;
+}
+
+.mountain-1 {
+  z-index: 18;
+  top: calc(50% + 91.5px);
+  left: calc(50% - 601px);
+  width: 450px;
+}
+
+.sun-rays {
+  position: absolute;
+  z-index: 19;
+  top: 0;
+  right: 0;
+  width: 595px;
+}
+
+.black-shadow {
+  position: absolute;
+  z-index: 20;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  pointer-events: none;
+}
+
+.fog-1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+  top: calc(100% + 355px);
+  left: 50%;
+  width: 1600px;
+  pointer-events: none;
+} */
+
+
+  
+  .bg-img {
+    width: 145.8%;
+    top: calc(50% - 10.3%);
+    left: calc(50% - 0.52%);
+    z-index: 1;
+  }
+  
+  .fog-7 {
+    width: 98.96%;
+    top: calc(50% - 9.26%);
+    left: calc(50% - 27.78%);
+    z-index: 2;
+  }
+  
+  .mountain-10 {
+    z-index: 3;
+    top: calc(50% + 6.39%);
+    width: 45.31%;
+    left: calc(50% + 11.98%);
+  }
+  
+  .fog-6 {
+    z-index: 4;
+    top: calc(50% + 1.39%);
+    left: calc(50% - 2.78%);
+    width: 131.76%;
+  }
+  
+  .mountain-9 {
+    top: calc(50% + 11.02%);
+    width: 42.87%;
+    left: calc(50% - 24.92%);
+    z-index: 5;
+  }
+  
+  .mountain-8 {
+    z-index: 6;
+    top: calc(50% + 18.89%);
+    width: 40.94%;
+    left: calc(50% - 10.52%);
+  }
+  
+  .fog-5 {
+    z-index: 7;
+    top: calc(50% + 15.80%);
+    left: calc(50% - 1.46%);
+    width: 74.74%;
+  }
+  
+  .mountain-7 {
+    z-index: 8;
+    width: 26.82%;
+    top: calc(50% + 12.41%);
+    left: calc(50% + 15.89%);
+  }
+  
+  .text {
+    top: calc(50% - 12.04%);
+    left: 50%;
+    z-index: 9;
+    text-align: center;
+    color: #fff;
+    pointer-events: auto;
+  }
+  
+  .text p {
+    font-weight: 600;
+    font-size: 1.5vw;
+    text-align: left;
+  }
+  
+  .text h1 {
+    font-weight: 800;
+    font-size: 8vw;
+    text-align: left;
+  }
+
+  .aditya , .heading {
+    /* color: rgb(44, 217, 44); */
+    display: inline-block;
+    background-image: linear-gradient(90deg,#03C03C, #32CD32 29%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .heading {
+    display: initial;
+    font-weight: 600;
+    font-size: 3.5rem;
+  }
+  
+  .mountain-6 {
+    z-index: 10;
+    top: calc(50% + 12.39%);
+    width: 30.05%;
+    left: calc(50% + 30.73%);
+  }
+  
+  .fog-4 {
+    z-index: 11;
+    top: calc(50% + 26.41%);
+    left: calc(50% - 3.33%);
+    width: 28.29%;
+  }
+  
+  .mountain-5 {
+    z-index: 12;
+    top: calc(50% + 34%);
+    width: 33.67%;
+    left: calc(50% + 7.41%);
+  }
+  
+  .fog-3 {
+    z-index: 7;
+    top: calc(50% + 15.83%);
+    left: calc(50% + 1.34%);
+    width: 23.33%;
+  }
+  
+  .mountain-4 {
+    z-index: 14;
+    top: calc(50% + 26%);
+    width: 43.24%;
+    left: calc(50% - 25.80%);
+  }
+  
+  .mountain-3 {
+    z-index: 15;
+    top: calc(50% + 18.31%);
+    left: calc(50% + 42.33%);
+    width: 21.82%;
+  }
+  
+  .fog-2 {
+    z-index: 4;
+    top: calc(50% + 10.80%);
+    left: calc(50% + 0.37%);
+    width: 94.22%;
+  }
+  
+  .mountain-2 {
+    z-index: 17;
+    top: calc(50% + 25.41%);
+    left: calc(50% + 21.46%);
+    width: 32.55%;
+  }
+  
+  .mountain-1 {
+    z-index: 18;
+    top: calc(50% + 17.47%);
+    left: calc(50% - 43.3%);
+    width: 23.44%;
+  }
+  
+  .sun-rays {
+    position: absolute;
+    z-index: 19;
+    top: 0;
+    right: 0;
+    width: 31.05%;
+  }
+  
+  .black-shadow {
+    position: absolute;
+    z-index: 20;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    pointer-events: none;
+  }
+  
+  .fog-1 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    top: calc(100% + 35.87%);
+    left: 50%;
+    width: 83.33%;
+    pointer-events: none;
+  }
+  
+
+
+
+.vignette {
+  position: absolute;
+
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: radial-gradient(
+    ellipse at center,
+    rgb(0, 0, 0, 0) 65%,
+    rgba(0, 0, 0, 0.822)
+  );
+  pointer-events: none;
+}
